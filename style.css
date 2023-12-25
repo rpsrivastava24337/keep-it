@@ -1,0 +1,166 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+html {
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background: #F5CCA0;
+    padding: 0 16px;
+ 
+}
+
+header {
+    background-color: #994D1C;
+    margin: auto -16px;
+    padding: 12px 22px;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+    color: #ffc695;
+    font-family: "McLaren", cursive;
+    font-weight: 200;
+}
+
+footer {
+    position: fixed;
+    text-align: center;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    height: 1.5rem;
+}
+
+footer p {
+    color: #994D1C;
+}
+
+.note {
+    background: #E48F45;
+    border-radius: 7px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+    width: 240px;
+    margin: 10px;
+    float: left;
+    margin-bottom: 2rem;
+}
+
+.note h1 {
+    font-size: 1.1em;
+    margin-bottom: 6px;
+    color: #994D1C;
+}
+
+.note p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    color: #ffffff;
+ 
+}
+.note button {
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    color: #F5CCA0;
+    background: #994D1C;
+    border: none;
+    width: 46px;
+    height: 46px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 50%;
+
+}
+
+form {
+    position: relative;
+    width: 480px;
+    margin: 30px auto 20px auto;
+    background: #fff;
+    padding: 15px;
+    border-radius: 7px;
+    -webkit-box-shadow: 0 1px 5px rgb(138, 137, 137);
+            box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+
+form input,
+form textarea {
+    width: 100%;
+    border: none;
+    padding: 4px;
+    outline: none;
+    font-size: 1.2em;
+    font-family: inherit;
+    resize: none;
+}
+
+form button {
+    position: absolute;
+    right: 18px;
+    bottom: -18px;
+    background: #994D1C;
+    color: #F5CCA0;
+    border: none;
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    outline: none;
+}
+
+.glow { 
+    -webkit-animation: glow 1s ease-in-out infinite alternate; 
+            animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 1px #0d0705, 0 0 2px #fff, 0 0 30px #994D1C, 0 0 4px #F5CCA0, 0 0 5px #48372c, 0 0 6px #4f2902, 0 0 7px #F5CCA0;
+    }
+    
+    to {
+      text-shadow: 0 0 2px #fff, 0 0 3px #994D1C, 0 0 40px #F5CCA0, 0 0 5px #000000, 0 0 6px #F5CCA0, 0 0 7px #2f1800, 0 0 8px #000000;
+    }
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 1px #0d0705, 0 0 2px #fff, 0 0 30px #994D1C, 0 0 4px #F5CCA0, 0 0 5px #48372c, 0 0 6px #4f2902, 0 0 7px #F5CCA0;
+    }
+    
+    to {
+      text-shadow: 0 0 2px #fff, 0 0 3px #994D1C, 0 0 40px #F5CCA0, 0 0 5px #000000, 0 0 6px #F5CCA0, 0 0 7px #2f1800, 0 0 8px #000000;
+    }
+  }
+
+  button:hover{
+    border: 1px solid;
+    -webkit-box-shadow: inset 0 0 20px rgba(2, 0, 0, 0.5), 0 0 20px rgba(255, 255, 255, .2);
+            box-shadow: inset 0 0 20px rgba(2, 0, 0, 0.5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #994D1C; 
+    color: #fff;
+  }
